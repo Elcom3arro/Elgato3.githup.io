@@ -1,0 +1,138 @@
+
+
+body {
+    text-align: none;
+    font-family: sans-serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    background: #000000;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 50px;
+}
+
+.logo {
+    margin: 50px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #3f3f3f;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header {
+    height: auto;
+    background: url(img/Gato2.avif) no-repeat center;
+    background-size: cover;
+}
+
+.title {
+    margin-bottom: auto;
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+
+p {
+    margin-bottom: auto;
+    font-size:auto;
+    color: #fff;
+    padding: 0 100px;
+}
+
+.content {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 16vh;
+    background: transparent;
+    justify-content:none;
+    width: 90%;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    
+
+}
+
+.about {
+    background: #171717;
+    padding: 30vh;
+    width: 90%;
+}
+
+.price {
+    background: url(img/Fondo1.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    padding: 20vh;
+    width: 90%;
+}
+
+
+.contact {
+    position: relative;
+    padding: 10px;
+    background: #171717;
+    text-align: center;
+    width: 100%;
+}
+
+
+@media (max-width: 768px) {
+
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau {
+        height: 100vh;
+    }
+
+    .navbar {
+        display: none;
+    }}
